@@ -58,8 +58,6 @@ html {
     width: 148px;
     height: 105px;
     place-self: center;
-    background-image: url(/images/logo-black.svg);
-    background-repeat: no-repeat;
 }
 
 .header__contacts {
