@@ -10,124 +10,126 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
 
-  <!-- Класс container для body задан, чтобы определить максимальную ширину, так как макет сайта сделан именно по таким параметрам -->
+  <!-- Класс container задан, чтобы определить максимальную ширину, так как макет сайта сделан именно по таким параметрам -->
 
-  <body class="container">
-    <header class="header">
-        <nav class="header__menu">
-          <ul class="header__links-list">
-            <li class="header__links-list-item_no-bullit">
-              <a class="header__link header__link-active" href="#cover-id">Главная</a>
-            </li>
-            <li>
-              <a class="header__link" href="#lots-id">Посмотреть лоты</a>
-            </li>
-            <li>
-              <a class="header__link" href="#about-id">Об аукционе</a>
-            </li>
-          </ul>
-        </nav>
+  <body>
+    <div class="container">
+      <header class="header">
+          <nav class="header__menu">
+            <ul class="header__links-list">
+              <li class="header__links-list-item_no-bullit">
+                <a class="header__link header__link-active" href="#cover-id">Главная</a>
+              </li>
+              <li>
+                <a class="header__link" href="#lots-id">Посмотреть лоты</a>
+              </li>
+              <li>
+                <a class="header__link" href="#about-id">Об аукционе</a>
+              </li>
+            </ul>
+          </nav>
 
-        <a class="header__logo" href="#">
-          <img src="/images/logo-black.svg" alt="Лого Оно тебе надо">
-        </a>
+          <a class="header__logo" href="#">
+            <img src="/images/logo-black.svg" alt="Лого Оно тебе надо">
+          </a>
 
-        <div class="header__contacts">
-          <a href="tel:+70000000">+7(000)000-00-00</a>
-          <br><a href="mailto:mail@example.com">mail@example.com</a>
-          <address class="address">
-            наб. Принсенграхт 263-265, Амстердам
-          </address>
-        </div>
-    </header>
-
-    <main>
-      <section class="cover" id="cover-id">
-        <div class="overlay">
-          <h1 class="cover__title">
-            <span class="aligned-text_left">Он<span class="letter-spacing-extended">о</span></span> 
-            <span class="aligned-text_center">теб<span class="letter-spacing-extended">е</span></span> 
-            <span class="aligned-text_right">над<span class="letter-spacing-extended">о</span></span>
-          </h1>
-          <div class="cover__description">
-            <h2 class="cover__description-text">аукцион вещей, в которые никто не верил</h2>
-            <button class="bet-button">Сделать ставку</button>
+          <div class="header__contacts">
+            <a href="tel:+70000000">+7(000)000-00-00</a>
+            <br><a href="mailto:mail@example.com">mail@example.com</a>
+            <address class="address">
+              наб. Принсенграхт 263-265, Амстердам
+            </address>
           </div>
-        </div>
-      </section>
+      </header>
 
-      <section class="lots" id="lots-id">
-        <h2 class="lots__heading">Лоты</h2>
-        <div class="lots__card-list">
+      <main>
+        <section class="cover" id="cover-id">
+          <div class="overlay">
+            <h1 class="cover__title">
+              <span class="aligned-text_left">Он<span class="letter-spacing-extended">о</span></span> 
+              <span class="aligned-text_center">теб<span class="letter-spacing-extended">е</span></span> 
+              <span class="aligned-text_right">над<span class="letter-spacing-extended">о</span></span>
+            </h1>
+            <div class="cover__description">
+              <h2 class="cover__description-text">аукцион вещей, в которые никто не верил</h2>
+              <button class="bet-button">Сделать ставку</button>
+            </div>
+          </div>
+        </section>
 
-          <!-- Первая карточка "Фильмы режиссера" -->
+        <section class="lots" id="lots-id">
+          <h2 class="lots__heading">Лоты</h2>
+          <div class="lots__card-list">
 
-          <article class="lots__card-list-item">
-            <a href="#" class="card-link">
-              <div class="card card_type_film">
-                <div class="overlay">
-                  <div class="card__content">
-                    <h3 class="card__title">Фильм режиссёра, который  бросил киношколу</h3>
-                  <p class="card__text">
-                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-                  </p>
+            <!-- Первая карточка "Фильмы режиссера" -->
+
+            <article class="lots__card-list-item">
+              <a href="#" class="card-link">
+                <div class="card card_type_film">
+                  <div class="overlay">
+                    <div class="card__content">
+                      <h3 class="card__title">Фильм режиссёра, который  бросил киношколу</h3>
+                    <p class="card__text">
+                      Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                    </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </a>
-          </article>
+              </a>
+            </article>
 
-          <!-- Вторая карточка "Книги" -->
+            <!-- Вторая карточка "Книги" -->
 
-          <article class="lots__card-list-item">
-            <a href="#" class="card-link">
-              <div class="card card_type_book">
-                <div class="overlay">
-                  <div class="card__content">
-                    <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-                  <p class="card__text">
-                    Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
-                  </p>
+            <article class="lots__card-list-item">
+              <a href="#" class="card-link">
+                <div class="card card_type_book">
+                  <div class="overlay">
+                    <div class="card__content">
+                      <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                    <p class="card__text">
+                      Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+                    </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </a>
-          </article>
+              </a>
+            </article>
 
-          <!-- Третья карточка "Картина" -->
+            <!-- Третья карточка "Картина" -->
 
-          <article class="lots__card-list-item">
-            <a href="#" class="card-link">
-              <div class="card card_type_picture">
-                <div class="overlay">
-                  <div class="card__content">
-                    <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-                  <p class="card__text">
-                    Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
-                  </p>
+            <article class="lots__card-list-item">
+              <a href="#" class="card-link">
+                <div class="card card_type_picture">
+                  <div class="overlay">
+                    <div class="card__content">
+                      <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                    <p class="card__text">
+                      Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+                    </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </a>
-          </article>
+              </a>
+            </article>
 
-        </div>
-        <a href="#" class="lots__look-more-link">посмотреть больше</a>
-      </section>
-
-      <div class="divider-gray"></div>
-
-      <section class="about" id="about-id">
-          <div class="about__logo">
-            <img src="/images/logo-white.svg" alt="Логотип оно тебе надо" class="about__logo-image">
           </div>
+          <a href="#" class="lots__look-more-link">посмотреть больше</a>
+        </section>
 
-          <div class="about__column">
-            <h2 class="about__title">Об аукционе</h2>
-            <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-            <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
-          </div>
-      </section>
+        <div class="divider-gray"></div>
+
+        <section class="about" id="about-id">
+            <div class="about__logo">
+              <img src="/images/logo-white.svg" alt="Логотип оно тебе надо" class="about__logo-image">
+            </div>
+
+            <div class="about__column">
+              <h2 class="about__title">Об аукционе</h2>
+              <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+              <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
+            </div>
+        </section>
+      </main>
 
       <footer class="footer">
         <div class="footer__contacts">
@@ -173,8 +175,6 @@
         </nav>
 
       </footer>
-
-    </main>
-
+    </div>
   </body>
 </html>
