@@ -27,7 +27,7 @@ html {
 .header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 87px 50px 0px;
+    padding: 87px 50px 0px;
 }
 
 .header__menu {
