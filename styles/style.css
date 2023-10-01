@@ -18,6 +18,13 @@ html {
     background-color: rgba(0, 0, 0, .5);
 }
 
+.contacts {
+    align-self: center;
+    width: 240px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
 .address {
     margin-top: 8px;
 }
@@ -60,20 +67,15 @@ html {
     place-self: center;
 }
 
-.header__contacts {
-    place-self: center end;
-    width: 240px;
-    font-family: Raleway, sans-serif serif;
-    font-size: 18px;
-    font-weight: normal;
+.contacts-align-end {
+    justify-self: end;
 }
 
 /* Стили для входной секции */
 
 .cover {
     width: 100%;
-    height: 757px;
-    background-image: url(./images/cover.jpg);
+    background-image: url(/images/cover.jpg);
     background-position: center;
     background-size: cover;
 
@@ -85,32 +87,22 @@ html {
     font-size: 100px;
     text-transform: uppercase;
     padding: 158px 50px 0;
-    /* letter-spacing: 28px; */
-}
-
-.aligned-text_left {
-    letter-spacing: 28px;
+    letter-spacing: 20px;
 }
 
 .aligned-text_center {
     display: block;
-    position: relative;
     text-align: center;
-    letter-spacing: 28px;
     margin-top: 16px;
-    right: 16px;
 }
 
 .aligned-text_right {
-    position: relative;
     display: block;
     text-align: end;
-    left: 30px;
-    letter-spacing: 28px;
 }
 
 .letter-spacing-extended {
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 .cover__description {
@@ -118,7 +110,7 @@ html {
     gap: 75px;
     align-items: center;
     justify-content: end;
-    margin: 135px 50px 0;
+    padding: 131px 50px 50px;
 }
 
 .cover__description-text {
@@ -165,7 +157,7 @@ html {
 .lots__card-list-item {
     background-color: rebeccapurple;
     width: 430px;
-    height: 450px;
+    min-height: 450px;
 }
 
 .card-link {
@@ -182,17 +174,17 @@ html {
 }
 
 .card_type_film {
-    background-image: url(./images/card-lot-01.jpg);
+    background-image: url(/images/card-lot-01.jpg);
     background-size: cover;
 }
 
 .card_type_book {
-    background-image: url(./images/card-lot-02.jpg);
+    background-image: url(/images/card-lot-02.jpg);
     background-size: cover;
 }
 
 .card_type_picture {
-    background-image: url(./images/card-lot-03.jpg);
+    background-image: url(/images/card-lot-03.jpg);
     background-size: cover;
 }
 
@@ -226,20 +218,12 @@ html {
     margin-left: 40px;
 }
 
-/* Стиль для серой полоски */
-
-.divider-gray {
-    background-color: #d9d9d9;
-    height: 49px;
-    margin-top: 40px;
-}
-
 /* Стили для секции "Об аукционе" */
 
 .about {
     display: grid;
     grid-template-columns: 2fr 4fr;
-    margin: 94px 50px 0;
+    margin: 181px 50px 0;
     column-gap: 14px;
 }
 
@@ -280,13 +264,6 @@ html {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 186px 50px 90px;
-}
-
-.footer__contacts {
-    align-self: center;
-    width: 240px;
-    font-size: 18px;
-    font-weight: normal;
 }
 
 .footer__nav {
