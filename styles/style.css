@@ -1,9 +1,5 @@
 /* место для вашего кода */
 
-html {
-    scroll-behavior: smooth;
-}
-
 /* селектор main, header чтобы задать макс ширину экрана и ориентироваться на нее
 Так как в фигме идет работа с данной шириной */
 
@@ -50,6 +46,8 @@ html {
 .header__link {
     font-size: 18px;
     font-weight: normal;
+    text-transform: lowercase;
+    text-underline-offset: 6px;
 }
 
 .header__link-active {
@@ -67,6 +65,12 @@ html {
     place-self: center;
 }
 
+.header__logo-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .contacts-align-end {
     justify-self: end;
 }
@@ -75,7 +79,7 @@ html {
 
 .cover {
     width: 100%;
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-position: center;
     background-size: cover;
 
@@ -87,7 +91,11 @@ html {
     font-size: 100px;
     text-transform: uppercase;
     padding: 158px 50px 0;
-    letter-spacing: 20px;
+    letter-spacing: 30px;
+}
+
+.text-height {
+    line-height: 115%;
 }
 
 .aligned-text_center {
@@ -102,7 +110,7 @@ html {
 }
 
 .letter-spacing-extended {
-    margin-left: 60px;
+    letter-spacing: 60px;
 }
 
 .cover__description {
@@ -174,17 +182,17 @@ html {
 }
 
 .card_type_film {
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
 }
 
 .card_type_book {
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
     background-size: cover;
 }
 
 .card_type_picture {
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
     background-size: cover;
 }
 
