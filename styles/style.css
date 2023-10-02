@@ -90,7 +90,7 @@
     color: #fff;
     font-size: 100px;
     text-transform: uppercase;
-    padding: 158px 50px 0;
+    padding: 165px 50px 0;
     letter-spacing: 30px;
 }
 
@@ -101,7 +101,7 @@
 .aligned-text_center {
     display: block;
     text-align: center;
-    margin-top: 16px;
+    padding-top: 10px;
 }
 
 .aligned-text_right {
@@ -109,8 +109,12 @@
     text-align: end;
 }
 
-.letter-spacing-extended {
+.letter-spacing {
     letter-spacing: 60px;
+}
+
+.letter-spacing-extended {
+    letter-spacing: normal;
 }
 
 .cover__description {
